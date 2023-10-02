@@ -47,8 +47,8 @@ Además, se requiere un servidor MySQL local o remoto para almacenar los datos.
 
 ## Uso
 
-1. Ejecuta `preproyecto_web_scrapping.py` para realizar la extracción de datos.
-2. Ejecuta `sql.py` para almacenar los datos en la base de datos MySQL.
+1. Ejecuta `sql.py` para realizar la extraccion y almacenar los datos en la base de datos MySQL.
+
 
 ## Configuración de la Base de Datos
 
