@@ -16,7 +16,6 @@ El archivo `preproyecto_web_scrapping.py` realiza la extracción de datos desde 
 - `requests` para realizar solicitudes HTTP al sitio web.
 - `BeautifulSoup` para analizar el contenido HTML.
 - `json` para procesar datos en formato JSON.
-- `selenium` para automatizar la interacción con el sitio web.
 - `datetime` para registrar la fecha y hora de la extracción.
 
 El proceso incluye lo siguiente:
@@ -42,7 +41,6 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 - requests
 - BeautifulSoup
 - json
-- selenium
 - pymysql
 
 Además, se requiere un servidor MySQL local o remoto para almacenar los datos.
