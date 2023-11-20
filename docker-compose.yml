@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  myapp:
+  #especifica cómo construir la imagen del contenedor.
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+      #permite que los cambios en tu código se reflejen automáticamente en el contenedor.
+    volumes:
+      - .:/app
+
+  mysql:
+    image: mysql:8.0.30
+    container_name: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: my_database
+
+    
+    
+    
